@@ -1,0 +1,178 @@
+## Analisis SWOT
+
+@tbl-analisis_swot menunjukkan analisis SWOT atas kurikulum 2017 serta kondisi program studi/departemen secara umum. Melihat beberapa poin strength dan weakness yang ada maka PMPSTI menyusun strategi pengembangan dengan mempertahankan poin strength yang sudah tercapai dan memperbaiki weakness secara sistemis melalui perbaikan struktur kurikulumnya. Konsep *Outcome-based Education* (OBE) dan kesesuaian kurikulum dengan standar SNPT, KKNI, Visi UGM, Visi FT UGM, dan Visi DTETI tetap dipertahankan dan diselaraskan dengan Program Sarjana Teknologi Informasi. Di sisi lain, lemahnya ilmu dasar seperti statistika akan dijawab dengan penguatan materi tersebut di kurikulum 2022 Versi Revisi-2. Selain itu, untuk menjawab adanya Peraturan Rektor UGM no 18 tahun 2019, pada kurikulum PMPSTI 2022 Versi Revisi-2 ditambahkan jalur pendidikan magister berbasis riset. Pada aspek *opportunity*, melihat adanya peluang yang begitu besar terhadap kebutuhan lulusan di bidang teknologi informasi, maka kurikulum 2022 Versi Revisi-2 menyediakan empat konsentrasi untuk dipilih oleh setiap mahasiswa sesuai keminatannya. Keempat konsentrasi tersebut meliputi, konsentrasi smart-Government yang menjadi ciri dari PMPSTI FT UGM, konsentrasi analisis data dan kecerdasan tersebar (*data analytic and pervasive intelligence*), konsentrasi rekayasa perangkat lunak berpusat pada manusia (*human centered software engineering*), serta *network and cybersecurity*. Melalui konsentrasi ini diharapkan PMPSTI bisa menjawab kebutuhan lulusan di bidang teknologi informasi yang berkualifikasi sesuai tren kebutuhan di era Industri 4.0 antara lain Internet of Things, Big Data dan Artificial Intelligence (kecerdasan buatan) serta Society 5.0.
+
+```{=latex}
+\begin{landscape}
+```
+
+```{r}
+#| label: tbl-analisis_swot
+#| tbl-cap: "Analisis SWOT"
+#| echo: false
+#| warning: false
+#| message: false
+
+library(kableExtra)
+library(knitr)
+
+is_pdf  <- knitr::is_latex_output()
+is_html <- knitr::is_html_output()
+
+make_list <- function(items) {
+  if (is_pdf) {
+    paste0(
+      "\\begin{enumerate}",
+      paste0("\\item ", items, collapse = ""),
+      "\\end{enumerate}"
+    )
+  } else {
+    paste0(
+      "<ol>",
+      paste0("<li>", items, "</li>", collapse = ""),
+      "</ol>"
+    )
+  }
+}
+
+swot <- data.frame(
+  Col1 = c(
+    "",
+    "",
+    "\\textbf{Opportunities}",
+    make_list(c(
+      "Perkembangan ilmu di bidang teknologi informasi yang sangat pesat dan tidak dapat dipisahkan dengan perkembangan peradaban modern khususnya pada I4.0 dan S5.0.",
+      "Kebutuhan tenaga magister teknologi informasi yang terbuka untuk pasar dalam dan luar negeri.",
+      "Dukungan baik dari pemerintah, swasta, maupun asing terhadap berkembangnya ilmu teknologi informasi."
+    )),
+    "\\textbf{Threats}",
+    make_list(c(
+      "Masuknya perguruan tinggi asing yang bekerjasama dengan perguruan tinggi swasta.",
+      "Munculnya program magister baru dan tumbuhnya program magister yang sejenis di tingkat nasional.",
+      "Tuntutan internasionalisasi."
+    ))
+  ),
+
+  Col2 = c(
+    "\\textbf{Strengths}",
+    make_list(c(
+      "Visi PMPSTI sejalan dengan amanat SNPT, KKNI, Visi UGM, Visi FT UGM, dan Visi DTETI.",
+      "Penelitian dosen PMPSTI baik dan kerja sama dengan industri terjalin dengan baik.",
+      "Terdapat fasilitas pendukung publikasi yang memadai (seminar internasional dan jurnal nasional terakreditasi Sinta).",
+      "Memiliki Program Sarjana Teknologi Informasi (PSTIF) yang telah terakreditasi internasional ABET/IABEE.",
+      "Memiliki konsentrasi Pemerintahan Elektronik (e-government) yang menjadi ciri PMPSTI."
+    )),
+    "\\textbf{Strengths-Opportunities}",
+    make_list(c(
+      "Penguatan orientasi keilmuan berbasis keunggulan dan keunikan DTETI.",
+      "Penguatan kerjasama nasional dan internasional.",
+      "Keselarasan dengan aturan yang berlaku menjamin kontinyuitas program.",
+      "Memperkuat kesinambungan kurikulum PSTIF dan PMPSTI.",
+      "Memperkuat kerjasama mitra lembaga/badan pemerintahan."
+    )),
+    "\\textbf{Strengths-Threats}",
+    make_list(c(
+      "Meningkatkan kualitas proses pendidikan secara berkelanjutan.",
+      "Menaati seluruh aturan yang berlaku dan pemenuhan standar yang ditetapkan.",
+      "Melakukan inovasi pembelajaran (metode).",
+      "Meningkatkan kualitas penelitian dengan menerapkan standar publikasi internasional."
+    ))
+  ),
+
+  Col3 = c(
+    "\\textbf{Weakness}",
+    make_list(c(
+      "Kurikulum 2017 belum menerapkan Peraturan Rektor UGM No. 18 Tahun 2019 tentang pendidikan pascasarjana berbasis riset.",
+      "Kesinambungan kurikulum PMPSTI dengan PSTIF belum optimal dan konsentrasi belum linear.",
+      "Mata kuliah dasar statistika belum mencukupi kebutuhan mahasiswa.",
+      "Belum adanya konsentrasi keilmuan untuk keamanan jaringan dan cybersecurity.",
+      "Sumber daya keamanan jaringan masih terbatas."
+    )),
+    "\\textbf{Weakness-Opportunities}",
+    make_list(c(
+      "Penguatan upaya memperoleh dukungan dari pemerintah dan swasta.",
+      "Penambahan jalur pendidikan magister berbasis penelitian (by research).",
+      "Menyambungkan konsentrasi PMPSTI dengan career path pada program sarjana DTETI.",
+      "Menambahkan mata kuliah statistika lanjut dan pemodelan sebagai mata kuliah wajib umum.",
+      "Penambahan konsentrasi Network and Cybersecurity untuk mendukung I4.0 dan S5.0."
+    )),
+    "\\textbf{Weakness-Threats}",
+    make_list(c(
+      "Penyesuaian administrasi dan konten sesuai tuntutan nasional maupun internasional.",
+      "Mendorong staf pengajar mendalami bidang keamanan jaringan dan menyusun roadmap kebutuhan SDM."
+    ))
+  ),
+
+  stringsAsFactors = FALSE
+)
+
+if (is_html) {
+  swot[] <- lapply(swot, function(x) {
+    gsub("\\\\textbf\\{(.+?)\\}", "<strong>\\1</strong>", x)
+  })
+}
+
+if (is_pdf) {
+
+  tbl <- kbl(
+    swot,
+    format    = "latex",
+    booktabs  = TRUE,
+    full_width = TRUE,
+    longtable = TRUE,
+    escape    = FALSE,
+    col.names = c("", "", ""),
+    align     = c(
+      "p{0.25\\linewidth}",
+      "p{0.375\\linewidth}",
+      "p{0.375\\linewidth}"
+    )
+  ) |>
+    kable_styling(
+    latex_options = "scale_down"
+    ) |>
+    row_spec(1, bold = TRUE ,
+             extra_latex_after = "\\hline", background = "#D9E3E4") |>
+    row_spec(2, extra_latex_after = "\\addlinespace[8pt]") |>
+    row_spec(3, bold = TRUE ,
+             extra_latex_after = "\\hline", background = "#D9E3E4") |>
+    row_spec(4, extra_latex_after = "\\addlinespace[8pt]") |>
+    row_spec(5, bold = TRUE ,
+             extra_latex_after = "\\hline", background = "#D9E3E4")
+
+  tbl <- gsub("\\\\toprule\n", "", tbl)
+  tbl <- gsub("\\\\midrule\n", "", tbl)
+  tbl <- gsub("\\\\bottomrule\n", "", tbl)
+
+} else {
+
+  tbl <- kbl(
+    swot,
+    format    = "html",
+    escape    = FALSE,
+    col.names = c("", "", ""),
+    align     = c("l", "l", "l")
+  ) |>
+    kable_styling(
+      full_width        = FALSE
+    ) |>
+    column_spec(1, width = "25%") |>
+    column_spec(2, width = "37.5%") |>
+    column_spec(3, width = "37.5%") |>
+    row_spec(1, bold = TRUE,
+           extra_css = "padding-top:0;padding-bottom:6px;") |>
+    row_spec(3, bold = TRUE,
+           extra_css = "padding-top:0;padding-bottom:6px;") |>
+    row_spec(5, bold = TRUE,
+           extra_css = "padding-top:0;padding-bottom:6px;") |>
+    row_spec(2, extra_css = "padding-bottom: 16px;") |>
+    row_spec(4, extra_css = "padding-bottom: 16px;")
+}
+
+tbl
+
+```
+
+```{=latex}
+\end{landscape}
+```

@@ -1,0 +1,15 @@
+# Kata Pengantar {.unnumbered}
+
+Kurikulum Program Magister Program Studi Teknologi Informasi (PMPSTI) 2022 Versi Revisi-2 merupakan pembaharuan kurikulum PMPSTI 2022 Versi Revisi-1 dengan mempertimbangkan perubahan Peraturan Menteri Pendidikan dan Kebudayaan No 53 tahun 2023 ke Peraturan Menteri Pendidikan Tinggi, Sains, dan Teknologi Republik Indonesia No. 39 Tahun 2025 tentang Penjaminan Mutu Pendidikan Tinggi, dan Peraturan Rektor No 23 tahun 2024 serta beberapa aspek dan masukan pemangku kepentingan. Pertama, kesinambungan dengan Program Sarjana Program Studi Teknologi Informasi (PSPSTIF). Kesinambungan yang dimaksud adalah adanya kesesuaian konsentrasi PMPSTI yang merupakan spesialisasi dari jalur karir (*career path*) yang ada di PSPSTIF. Aspek kedua, Kurikulum PMPSTI 2022 Versi Revisi-2 juga berkaca pada Kurikulum PSPSTIF yang telah lebih dahulu diperbarui pada tahun 2022 yang mengacu pada proses akreditasi internasional *Indonesian Accreditation Board for Engineering Education* (IABEE). Akreditasi tersebut menyatakan bahwa penguasaan ilmu dasar harus diperkuat pada bidang ilmu teknologi informasi untuk dapat beradaptasi pada perubahan cepat khususnya pada ilmu teknologi informasi dan *Industry 4.0*.
+
+Akhir kata tak ada gading yang tak retak, tentu saja banyak sekali kekurangan di dalam usulan Kurikulum 2022 Versi Revisi-2 ini. Sebagai bagian dari semangat *outcome-based education* (OBE), PMPSTI bertekad untuk selalu memperbaiki diri terhadap kekurangan yang ada di dalam usulan kurikulum ini. Pengurus berterima kasih kepada semua pihak yang membantu menyelesaikan usulan kurikulum 2022 Versi Revisi-2 PMPSTI terutama kepada tim kurikulum PMPSTI dan Departemen Teknik Elektro dan Teknologi Informasi (DTETI). Semoga Allah SWT membalas dengan balasan yang lebih baik.
+
+::: {style="margin-top: 2em;"}
+Yogyakarta, 19 November 2025
+
+Ketua Departemen
+
+<br>
+
+**Prof. Ir. Hanung Adi Nugroho, S.T., M.Eng., Ph.D., IPM., SMIEEE.**
+:::

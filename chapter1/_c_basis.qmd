@@ -1,0 +1,61 @@
+## Landasan Perubahan dan Dokumen Rujukan
+
+### Landasan Filosofis
+
+Pendidikan adalah kegiatan normatif-ideal yang meskipun bersifat individual namun pada dasarnya memberikan kontribusi pada masyarakat. Dalam kerangka ini, pendidikan perlu selaras dengan kondisi yang terjadi pada masyarakat sehingga kontribusi yang diberikan dunia pendidikan hendaknya bersifat positif bagi kemanusiaan.
+
+Lingkungan yang dihadapi masyarakat modern dapat dibagi menjadi lingkungan yang dekat dengan individu dan lingkungan yang lebih luas. Secara global, teknologi digital sangat mendominasi pergerakan masyarakat. Komputasi digital telah mampu membuat model-model kompleks menjadi real-time. Sebagai akibatnya, muncullah dunia baru yang bersifat maya atau dikenal dengan nama metaverse. Dunia maya ini menjadi nyata juga akibat kemampuan komunikasi digital dengan kecepatan tinggi. Namun meski telah lengkap baik sarana-prasarana-perekayasa teknologi digitalnya, tanpa inovasi, tidak akan terwujud apapun. Ketiga aspek ini bergabung menyusun visi industrialisasi jilid empat atau dari sisi lain dinamakan visi masyarakat jilid lima. Visi global baru ini mengganggu tatanan lama pada tingkat lokal. Sehingga identitas setempat sangat mungkin terganggu. Pendidikan di PMPSTI sangat perlu untuk dapat menanggapi tantangan global namun harus tetap mampu menjaga tatanan lokal  dalam kerangka nasionalisme. Aspek pendidikan ini merupakan visi pendidikan dari Ki Hadjar Dewantara yang dikenal dengan visi nasional-universal.
+
+Secara khusus, berdasarkan *Computing Curricula (The Joint Task Force for Computing Curricula, 2005)*, keilmuan teknologi informasi mendiskusikan bagaimana sebuah solusi komputasi dibangkitkan, didistribusikan, dikelola, dan juga disesuaikan dengan kebutuhan pengguna. Keilmuan teknologi informasi lebih melekat pada penerapan yang tidak melupakan aspek keteknikan. Dilihat dari level komputasi yang dibutuhkan (fondasi/dasar, teknologi, domain aktivitas) dan komponen yang menjadi fokus (*domain hardware/software*, dan kebutuhan organisasi), keilmuan komputasi terbagi menjadi ilmu komputer, teknologi informasi, keamanan siber, sistem informasi, rekayasa perangkat lunak, dan ilmu data. Komponen rekayasa informasi mencakup bidang seperti pembelajaran mesin, kecerdasan buatan, teori kontrol, pemrosesan sinyal, dan teori informasi, serta bidang yang lebih terapan seperti visi komputer, pemrosesan bahasa alami, bioinformatika, dan komputasi citra medis.
+
+Pendidikan magister merupakan jenjang pendidikan termaktub dalam Kerangka Kualifikasi Nasional Indonesia (KKNI) pada level 8. Secara ilmu, lulusan program magister harus mampu menjalankan metode ilmiah secara mandiri sehingga memiliki pijakan filosofis-praksis yang berdasar kokoh dalam menyelesaikan masalah-masalah manusia dan kemanusiaan secara luas.
+
+### Landasan Sosiologis
+
+PMPSTI bertekad menghasilkan lulusan yang mampu berkontribusi dalam menyelesaikan masalah yang terjadi dalam kehidupan manusia secara umum dengan memanfaatkan metode ilmiah dalam kerangka ilmu teknologi informasi yang dilandasi jiwa Pancasila. Tujuan ini selaras dengan visi DTETI. Dalam mewujudkan tujuan ini, mahasiswa akan ditempa melalui dua tahapan dasar:
+
+1.  Perkuliahan yang bersifat meluaskan cakrawala pandang dan memperdalam keilmuan,
+
+2.  Penelitian terbimbing.
+
+Lingkungan yang mendukung tercapainya tujuan tersebut dibentuk dengan,
+
+1.  Kontribusi KBK sebagai pemegang otoritas keilmuan,
+
+2.  Pembentukan suasana akademik melalui pembiasaan kegiatan diskusi dan seminar tidak saja pada tingkat magister namun secara koordinatif mencakup mahasiswa doktor dan sarjana.
+
+### Landasan Psikologis
+
+Dalam kurikulum ini, mahasiswa program magister dipandang sebagai pembelajar dewasa. Secara ideal, mahasiswa magister dianggap telah matang baik landasan ilmunya maupun pemikirannya. Dengan pemahaman ini, program magister dalam kurikulumnya akan memberikan dukungan dalam bentuk pembimbingan dengan pola asuh pamong agar setiap mahasiswa dapat meniti langkah mengikuti urutan nilai-nilai ajaran Ki Hadjar Dewantara, yaitu *niteni-nirokke-nambahi* (3N). Kurikulum akan menekankan fungsi sebagai fasilitator dan katalisator dengan dukungan fasilitas baik sarana maupun prasarana yang dapat mendukung suksesnya pendidikan magister bidang teknologi informasi.
+
+### Landasan Historis
+
+Secara periodik, PMPSTI melakukan pembaruan terhadap kurikulumnya. Pada masing-masing periode, perbaikan terjadi untuk mengakomodasi poin signifikan tertentu. Kurikulum Program Magister Program Studi Teknologi Informasi (PMPSTI) pertama kali disusun pada tahun 2015 bersamaan dengan pengajuan Proposal Pendirian Prodi Magister Teknologi Informasi. Kurikulum 2015 diberlakukan sampai dengan tahun 2017 dan digantikan dengan Kurikulum Tahun 2017. Kurikulum 2017 disusun berdasarkan adanya penyesuaian dengan perkembangan teknologi informasi yang cukup pesat serta munculnya SK Rektor UGM No. 11 Tahun 2016 tentang Pendidikan Pasca Sarjana. Kurikulum 2017 tumbuh dengan memperhatikan sudut pandang baru yaitu *outcome based education* (OBE). Perwujudan dari sudut pandang baru tersebut muncul dari restrukturisasi mata kuliah yang lebih sederhana dan pernyataan eksplisit tentang program educational objective (PEO) serta program objective (PO). Kurikulum PMPSTI tahun 2017 juga fokus dilakukan pada pemenuhan unsur KKNI. Pendidikan magister diarahkan menjadi jenjang kualifikasi level 8 (delapan) dalam KKNI. Oleh karena itu, lulusan program PMPSTI didesain untuk:
+
+1.  Mampu mengambangkan pengetahuan dan teknologi di dalam bidang keilmuannya atau praktik profesionalnya melalui penelitian, hingga menghasilkan karya inovatif dan teruji,
+
+2.  Mampu memecahkan permasalahan ilmu pengetahuan dan teknologi di dalam bidang keilmuannya melalui pendekatan inter atau multidisipliner, dan
+
+3.  Mampu mengelola penelitian dan pengembangan yang bermanfaat bagi masyarakat dan keilmuannya serta mampu mendapatkan pengakuan nasional dan internasional.
+
+Kurikulum 2022 melanjutkan perbaikan dengan memperhatikan aspek disrupsi tatanan yang terjadi akibat inovasi ilmu dan kondisi pandemi COVID19. Penyikapan yang muncul pada mata kuliah ini adalah dengan melakukan penyesuaian struktur mata kuliah dan potensi inovasi pembelajaran berbasis penelitian sebagaimana diisyaratkan dengan PR 18 tahun 2019. 
+
+Sedangkan Kurikulum Program Magister Program Studi Teknologi Informasi (PMPSTI) 2022 Versi Revisi-2 merupakan pembaharuan kurikulum PMPSTI 2022 dengan mempertimbangkan Peraturan Menteri Pendidikan Tinggi, Sains, dan Teknologi Republik Indonesia No. 39 Tahun 2025 tentang Penjaminan Mutu Pendidikan Tinggi;
+
+### Landasan Yuridis
+
+Rujukan aturan yang mendasari kurikulum 2022 Versi Revisi-2 adalah:
+
+1.  Undang-undang No. 012 Tahun 2012 tentang Pendidikan Tinggi;
+
+2.  Peraturan Presiden No. 008 Tahun 2012 tentang Kerangka Kualifikasi Nasional Indonesia;
+
+3.  PP RI No. 67 Tahun 2013 tentang Statuta UGM;
+
+4.  Peraturan Menteri Pendidikan Tinggi, Sains, dan Teknologi Republik Indonesia No. 39 Tahun 2025 tentang Penjaminan Mutu Pendidikan Tinggi; 
+
+5.  Peraturan Rektor UGM No. 23 Tahun 2024 tentang Pendidikan;
+
+6.  Peraturan Rektor UGM No. 14 Tahun 2020 tentang Kerangka Dasar Kurikulum;
+
+7.  Peraturan Dekan Fakultas Teknik UGM No. 1 Tahun 2025 tentang Pendidikan Program Pascasarjana.

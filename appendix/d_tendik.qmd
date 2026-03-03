@@ -1,0 +1,65 @@
+# Daftar Tenaga Kependidikan Departemen Teknik Elektro dan Teknologi Informasi, FT UGM
+
+```{r}
+#| label: tbl-tendik
+#| tbl-cap: "Data Tenaga Kependidikan PMPSTI FT UGM"
+#| message: false
+#| warning: false
+#| echo: false
+
+library(here)
+library(readr)
+
+big_table <- read_csv(
+  here("appendix/data", "04_tendik.csv"),
+  col_types = cols(
+    No = col_integer(),
+    Nama = col_character(),
+    NIP = col_character(),   
+    Email = col_character()
+  )
+)
+
+big_table[is.na(big_table)] <- ""
+
+if (knitr::is_html_output()) {
+
+  library(DT)
+
+  datatable(
+    big_table,
+    rownames = FALSE,
+    style = "bootstrap4",
+    class = "table-bordered table-hover",
+    options = list(
+      pageLength = 10,
+      scrollX = TRUE,
+      autoWidth = TRUE,
+      columnDefs = list(
+        list(className = "dt-center", targets = c(0,2))
+      )
+    )
+  )
+
+} else {
+
+  library(knitr)
+  library(kableExtra)
+
+  kable(
+    big_table,
+    booktabs  = TRUE,
+    longtable = TRUE,
+    escape    = TRUE
+  ) |>
+    kable_styling(
+      latex_options = c("striped","repeat_header","scale_down"),
+      font_size = 8
+    ) |>
+    column_spec(1, width = "0.6cm") |>
+    column_spec(2, width = "4.5cm") |>
+    column_spec(3, width = "3cm") |>
+    column_spec(4, width = "4cm")
+
+}
+```

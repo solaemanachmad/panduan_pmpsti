@@ -1,0 +1,8 @@
+---
+title: "Silabus setiap MK"
+editor: visual
+---
+
+## Silabus setiap MK
+
+Seluruh mata kuliah yang ditawarkan oleh PMPSTI dalam kurikulum 2022 Versi Revisi-2 tercantum dalam bagian lampiran. Bagian ini juga membahas setiap mata kuliah secara detail, yang dapat dilihat di bagian Lampiran. Penjelasan mengenai mata kuliah mencakup beberapa aspek berikut: kode, CPL, CPMK, semester, jumlah SKS, topik, metode penyampaian, serta metode penilaian (baik formatif maupun sumatif) dengan mempertimbangkan Taksonomi Bloom.

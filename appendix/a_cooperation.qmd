@@ -1,0 +1,101 @@
+# Dokumen Kerjasama PMPSTI
+
+```{=latex}
+\begin{landscape}
+```
+
+```{r}
+#| label: tbl-cooperation
+#| tbl-cap: "Daftar Kerja Sama PMPSTI FT UGM"
+#| message: false
+#| warning: false
+#| echo: false
+
+library(here)
+library(readr)
+library(dplyr)
+
+big_table <- read_csv(
+  here("appendix/data", "01_dokumen_kerja_sama_pmpsti.csv"),
+  col_types = cols(.default = col_character()),
+  na = ""
+)
+
+if (knitr::is_html_output()) {
+
+  library(DT)
+
+  big_table <- big_table %>%
+    mutate(Dokumen = paste0("<a href='", Dokumen, "' target='_blank'>
+                            <button style='padding:3px 8px; cursor:pointer;'>
+                            Buka</button></a>"))
+
+  datatable(
+    big_table,
+    escape = FALSE,
+    rownames = FALSE,
+    colnames = c("Judul Kerja Sama", "Bidang", "Mitra",
+                 "Periode", "Dokumen", "Tingkat Kerja Sama"),
+    style = "bootstrap4",
+    class = "table-bordered table-condensed table-hover",
+    options = list(
+      pageLength = 10,
+      scrollX = TRUE,
+      autoWidth = TRUE,
+      dom = "lfrtip",
+      columnDefs = list(
+        list(width = "300px", targets = 0),
+        list(width = "120px", targets = 1),
+        list(width = "200px", targets = 2),
+        list(width = "100px", targets = 3),
+        list(width = "80px",  targets = 4),
+        list(width = "120px", targets = 5),
+        list(className = "dt-center", targets = c(1, 3, 4, 5)),
+        list(visible = FALSE, targets = 4)
+      ),
+      language = list(
+        search      = "Cari:",
+        lengthMenu  = "Tampilkan _MENU_ data",
+        info        = "Menampilkan _START_ sampai _END_ dari _TOTAL_ data",
+        paginate    = list(previous = "Sebelumnya", `next` = "Berikutnya"),
+        zeroRecords = "Data tidak ditemukan",
+        infoEmpty   = "Tidak ada data"
+      )
+    )
+  )
+
+} else {
+
+  library(knitr)
+  library(kableExtra)
+
+  big_table %>%
+    select(-Dokumen) %>%
+    kable(
+      format     = "latex",
+      col.names  = c("Judul Kerja Sama", "Bidang", "Mitra",
+                     "Periode", "Tingkat Kerja Sama"),
+      booktabs   = TRUE,
+      longtable  = TRUE,
+      escape     = FALSE,
+      align      = c(
+        "p{7cm}",
+        ">{\\centering\\arraybackslash}p{2.5cm}",
+        "p{5cm}",
+        ">{\\centering\\arraybackslash}p{2.5cm}",
+        ">{\\centering\\arraybackslash}p{3cm}"
+      )
+    ) |>
+    kable_styling(
+      latex_options = c("striped", "repeat_header"),
+      stripe_color  = "#F5F5F5",
+      font_size     = 9
+    ) |>
+    row_spec(0, bold = TRUE )
+
+}
+```
+
+```{=latex}
+\end{landscape}
+```

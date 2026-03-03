@@ -1,0 +1,8 @@
+---
+number-sections: false
+tbl-colwidths: [5,10,30,5,5,5,5,5,5,5]
+---
+
+# Buku Panduan Akademik {.unnumbered}
+
+This page contains an outline of the topics, content, and assignments for the semester. Note that this schedule will be updated as the semester progresses, with all changes documented here.

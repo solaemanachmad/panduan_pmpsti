@@ -1,0 +1,7 @@
+# Manajemen dan Mekanisme Peralihan
+
+{{< include _a_principles.qmd >}}
+
+{{< include _b_provision.qmd >}}
+
+{{< include _c_management.qmd >}}

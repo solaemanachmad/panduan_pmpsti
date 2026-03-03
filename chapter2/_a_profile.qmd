@@ -1,0 +1,60 @@
+## Rumusan Profil Lulusan (PL)
+
+Pengembangan kurikulum Program Magister Program Studi Teknologi Informasi dilakukan agar senantiasa selaras dengan visi dan misi Departemen Teknik Elektro dan Teknologi Informasi, Fakultas Teknik, Universitas Gadjah Mada. Standar kompetensi lulusan dirumuskan secara langsung berlandaskan visi dan misi tersebut, sehingga kurikulum PMPSTI 2022 Versi Revisi-2 tidak hanya menunjang pencapaian kompetensi yang telah ditetapkan, tetapi juga memastikan keterkaitan erat antara arah pengembangan akademik dengan tujuan kelembagaan. Di samping itu, kurikulum ini disusun dengan memperhatikan kebutuhan pengguna lulusan serta mempertimbangkan masukan dari dewan penasehat (advisory board). Kesesuaian standar kompetensi lulusan (SKL) dengan visi dan misi lembaga tertuang secara lebih rinci pada @sec-standard-competency.
+
+Struktur kurikulum dijabarkan secara lengkap mencakup profil lulusan, capaian pembelajaran lulusan, pemetaan capaian pembelajaran lulusan terhadap bahan kajian dan mata kuliah. Lulusan Program Magister Program Studi Teknologi Informasi dapat bekerja dalam beberapa bidang seperti yang tertulis pada @tbl-graduate-profile.
+
+```{r}
+#| label: tbl-graduate-profile
+#| tbl-cap: "Profil Lulusan Program Magister Program Studi Teknologi Informasi"
+#| echo: false
+#| warning: false
+#| message: false
+
+library(here)
+library(kableExtra)
+
+df_profile <- read.csv(
+  here("chapter2/data", "_a_graduate_profile.csv"),
+  check.names  = FALSE,
+  fileEncoding = "UTF-8"
+)
+
+is_pdf <- knitr::is_latex_output()
+
+if (is_pdf) {
+  kbl(df_profile,
+      booktabs = TRUE,
+      escape   = FALSE,
+      align    = c(
+        ">{\\centering\\arraybackslash}p{1cm}",
+        "p{4cm}",
+        "p{8cm}"
+      )
+  ) %>%
+    kable_styling(
+      position      = "center",
+      latex_options = c("hold_position", "striped"),
+      stripe_color  = "#F5F5F5"
+    ) %>%
+    row_spec(0, bold = TRUE )
+
+} else {
+  kbl(df_profile,
+      booktabs = TRUE,
+      escape   = FALSE,
+      align    = c("c", "l", "l")
+  ) %>%
+    kable_styling(
+      full_width        = TRUE,
+      bootstrap_options = c("striped", "bordered", "condensed"),
+      stripe_color      = "#F5F5F5"
+    ) %>%
+    row_spec(0, bold = TRUE ) %>%
+    column_spec(1, width = "5%")  %>%
+    column_spec(2, width = "25%") %>%
+    column_spec(3, width = "70%")
+}
+```
+
+Untuk mewujudkan profil lulusan sesuai pada @tbl-graduate-profile dirumuskan Standar Kompetensi Lulusan (SKL) atau *Program Educational Objective* (PEO) sesuai dengan visi dan misi Departemen Teknik Elektro dan Teknologi Informasi (DTETI) yang diturunkan dari visi dan misi Fakultas Teknik UGM yang tercantum pada @sec-faculty.

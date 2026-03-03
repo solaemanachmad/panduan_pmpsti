@@ -1,0 +1,26 @@
+# Tim Penyusun {.unnumbered}
+
+|                     |                                                    |
+|:--------------------|:---------------------------------------------------|
+| **Program Studi**   | Program Magister Program Studi Teknologi Informasi |
+| **Tahun Pengajuan** | 2025                                               |
+
+: {tbl-colwidths="\[30,70\]"}
+
+## Penanggung Jawab {.unnumbered}
+
+1.  Prof. Ir. Hanung Adi Nugroho, S.T., M.Eng., Ph.D., IPM., SMIEEE.
+2.  Ir. Lesnanto Multa Putranto, S.T., M.Eng., Ph.D., IPM., SMIEEE.
+
+## Penyusun {.unnumbered}
+
+1.  Dr. Ir. Rudy Hartanto, M.T., IPM.
+2.  Prof. Ir. Lukito Edi Nugroho, M.Sc., Ph.D.
+3.  Dr.Eng. Silmi Fauziati, S.T., M.T.
+4.  Dr. Indriana Hidayah, S.T., M.T.
+5.  Ir. Adhistya Erna Permanasari, S.T., M.T., Ph.D., IPM.
+6.  Ir. Azkario Rizky Pratama, S.T., M.Eng., Ph.D.
+7.  Syukron Abu Ishaq Alfarozi, S.T., Ph.D.
+8.  Dr. Ir. Guntur Dharma Putra, S.T., M.Sc.
+9.  Ahmad Ataka Awwalur Rizqi, S.T., Ph.D.
+10. Dr.Eng. Ir. Sunu Wibirama, S.T., M.Eng., IPM.

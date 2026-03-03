@@ -1,0 +1,235 @@
+## Aturan Peralihan
+
+Secara umum, sejak Semester Genap 2025/2026 PMPSTI akan menjalankan satu kurikulum, yaitu  Kurikulum 2022 versi Revisi-2.  Seluruh mahasiswa PMPSTI yang aktif pada semester tersebut harus memenuhi peraturan terkait kurikulum yang berlaku. Untuk mahasiswa baru (angkatan 2025 Genap dan seterusnya), diharapkan pelaksanaan Kurikulum 2022 Versi Revisi-2 akan lancar sesuai perencanaan per semester di @sec-curricula. Akan tetapi, untuk mahasiswa angkatan-angkatan sebelumnya, untuk dapat memanfaatkan aturan peralihan yang akan dijelaskan pada sub-bab berikutnya.
+
+### Ekivalensi antara Mata Kuliah Wajib Kurikulum 2022 Revisi-1 dan Kurikulum 2022 Revisi-2
+
+Kurikulum 2022 Revisi-1 dan Kurikulum 2022 Versi Revisi-2 memiliki perbedaan pada Mata Kuliah Wajib Umum, Publikasi, dan bobot Tesis, seperti yang ditampilkan pada @tbl-adapt-sks.
+
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+#| label: tbl-adapt-sks
+#| tbl-cap: "Tabel Penyesuaian SKS"
+
+library(kableExtra)
+
+is_pdf <- knitr::is_latex_output()
+
+df_adj <- data.frame(
+  `Mata Kuliah K2022 Revisi-1` = c(
+    "MK Wajib Umum",
+    "MK Wajib Konsentrasi",
+    "MK Pilihan",
+    "Seminar",
+    "Publikasi",
+    "Tesis",
+    "Total"
+  ),
+  SKS1 = c(22,6,6,2,5,13,54),
+  `Mata Kuliah K2022 Versi Revisi-2` = c(
+    "MK Wajib Umum",
+    "MK Wajib Konsentrasi",
+    "MK Pilihan",
+    "Seminar",
+    "Publikasi",
+    "Tesis + Ujian Tesis",
+    "Total"
+  ),
+  SKS2 = c(20,6,3,1,0,6,36),
+  check.names = FALSE
+)
+
+if (is_pdf) {
+  
+  kbl(df_adj,
+      booktabs = TRUE,
+      align = c(
+        "p{4.5cm}",
+        ">{\\centering\\arraybackslash}p{1cm}",
+        "p{4.5cm}",
+        ">{\\centering\\arraybackslash}p{1cm}"
+      ),
+      col.names = c(
+        "Mata Kuliah K2022 Revisi-1","SKS",
+        "Mata Kuliah K2022 Versi Revisi-2","SKS"
+      )
+  ) %>%
+    kable_styling(
+      latex_options = c("striped"),
+      stripe_color  = "#F5F5F5"
+    ) %>%
+    row_spec(0, bold = TRUE ) %>%
+    row_spec(nrow(df_adj), bold = TRUE, background = "#E6F2F3")
+
+} else {
+  
+  kbl(df_adj,
+      booktabs = TRUE,
+      align = c("l","c","l","c"),
+      col.names = c(
+        "Mata Kuliah K2022 Revisi-1","SKS",
+        "Mata Kuliah K2022 Versi Revisi-2","SKS"
+      )
+  ) %>%
+    kable_styling(
+      bootstrap_options = c("striped","bordered","hover"),
+      stripe_color      = "#F5F5F5",
+    ) %>%
+    row_spec(0, bold = TRUE ) %>%
+    row_spec(nrow(df_adj), bold = TRUE, background = "#E6F2F3") %>%
+    column_spec(2, width = "8%") %>%
+    column_spec(4, width = "8%")
+}
+```
+
+Pada @tbl-vs-curricula ditampilkan rincian perbandingan mata kuliah Kurikulum 2022 Versi Revisi-1 dan Kurikulum 2022 Versi Revisi-2. Beberapa mata kuliah di Semester 1 mengalami perubahan baik dari sisi nama, kode, maupun bobot SKS, seperti: Mata kuliah "Statistika Lanjut" diturunkan dari 3 menjadi 2 SKS. Mata kuliah "Metodologi, Etika Penelitian, dan Proposal Tesis" diturunkan dari 3 menjadi 2 SKS. Kemudian, rangkaian Tesis yaitu Publikasi, Ujian Tesis, dan Tesis digabungkan menjadi satu mata kuliah Tesis dengan bobot 6 SKS. Sedangkan mata kuliah lain, khususnya mata kuliah wajib konsentrasi dan pilihan konsentrasi tetap sama.
+
+```{=latex}
+\begin{landscape}
+```
+
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+#| tbl-cap: "Perbandingan MK Kurikulum 2022 Revisi 1– 2022 Versi Revisi-2"
+#| label: tbl-vs-curricula
+
+library(kableExtra)
+
+df_trans <- data.frame(
+  Sem = c(1,1,1,1,1,1, 2,2,2,2,2,2, 3,3,3, 4,4,4),
+  
+  Kode1 = c(
+    "FTK 256102","TIF 256101","TIF 256102","TIF 256103","TIF 256104","TIF 256105",
+    "TIF 256201","TIF 256202","TIF 256203","TIF 2562xx","TIF 2562xx","FTK256101",
+    "TIF 257101","TIF 2571xx","TIF 2571xx",
+    "TIF 257203","TIF 257202","TIF 257201"
+  ),
+  Nama1 = c(
+    "Kolaborasi dan Jejaring","Perspektif tentang Informasi","Statistika Lanjut",
+    "Metodologi, Etika Penelitian dan Proposal Tesis",
+    "Metode Penyelesaian Masalah dan Pemodelan","Komputer dan Masyarakat",
+    "Seminar 1","Komputasi Awan","Sistem Cerdas",
+    "MK Wajib Konsentrasi 1","MK Wajib Konsentrasi 2","Etika dan Teknik Penulisan Ilmiah",
+    "Seminar 2","MK Pilihan 1","MK Pilihan 2",
+    "Publikasi","Ujian Tesis","Tesis"
+  ),
+  SKS1 = c(2,2,3,3,2,2, 1,3,3,3,3,2, 1,3,3, 5,2,11),
+  
+  Kode2 = c(
+    "FTK 256102","TIF 256101","TIF 256102","TIF 256103","TIF 256104","TIF 256105",
+    "","TIF 256202","TIF 256203","TIF 2562xx","TIF 2562xx","FTK256101",
+    "TIF 257101","TIF 2571xx","",
+    "","","TIF 257201"
+  ),
+  Nama2 = c(
+    "Kolaborasi dan Jejaring","Perspektif tentang Informasi","Statistika Lanjut",
+    "Metodologi, Etika Penelitian dan Proposal Tesis",
+    "Metode Penyelesaian Masalah dan Pemodelan","Komputer dan Masyarakat",
+    "","Komputasi Awan","Sistem Cerdas",
+    "MK Wajib Konsentrasi 1","MK Wajib Konsentrasi 2","Etika dan Teknik Penulisan Ilmiah",
+    "Seminar","MK Pilihan 1","",
+    "","","Tesis"
+  ),
+  SKS2 = c(2,2,2,2,2,2, NA,3,3,3,3,2, 1,3,NA, NA,NA,6),
+  
+  check.names = FALSE
+)
+
+# Replace NA with empty string for display
+df_trans[is.na(df_trans)] <- ""
+
+is_pdf <- knitr::is_latex_output()
+
+if (is_pdf) {
+  kbl(df_trans,
+      booktabs  = TRUE,
+      escape    = FALSE,
+      longtable = TRUE,
+      col.names = c("Sem",
+                    "Kode MK", "Nama Mata Kuliah", "SKS",
+                    "Kode MK", "Nama Mata Kuliah", "SKS"),
+      align = c(
+        ">{\\centering\\arraybackslash}p{0.6cm}",
+        "p{2.0cm}",
+        "p{4.0cm}",
+        ">{\\centering\\arraybackslash}p{0.6cm}",
+        "p{2.0cm}",
+        "p{4.0cm}",
+        ">{\\centering\\arraybackslash}p{0.6cm}"
+      )
+  ) %>%
+    kable_styling(
+      latex_options = c("striped", "repeat_header"),
+      stripe_color  = "#F5F5F5"
+    ) %>%
+    row_spec(0, bold = TRUE ) %>%
+    add_header_above(
+      c(" " = 1,
+        "Kurikulum 2022 Revisi-1" = 3,
+        "Kurikulum 2022 Revisi-2" = 3),
+      bold = TRUE , escape = FALSE
+    )
+
+} else {
+  kbl(df_trans,
+      booktabs  = TRUE,
+      escape    = FALSE,
+      col.names = c("Sem",
+                    "Kode MK", "Nama Mata Kuliah", "SKS",
+                    "Kode MK", "Nama Mata Kuliah", "SKS"),
+      align = c("c","l","l","c","l","l","c")
+  ) %>%
+    kable_styling(
+      full_width        = TRUE,
+      bootstrap_options = c("striped","bordered","condensed","hover"),
+      stripe_color      = "#F5F5F5"
+    ) %>%
+    row_spec(0, bold = TRUE ) %>%
+    add_header_above(
+      c(" " = 1,
+        "Kurikulum 2022 Revisi-1" = 3,
+        "Kurikulum 2022 Revisi-2" = 3),
+      bold = TRUE , escape = FALSE
+    )
+}
+```
+
+```{=latex}
+\end{landscape}
+```
+
+### Mata Kuliah Pilihan Kurikulum 2022 Versi Revisi-2
+
+Tidak terdapat revisi pada Mata Kuliah Pilihan dan Wajib Konsentrasi pada Kurikulum 2022 Revisi-1. Setiap mahasiswa PMPSTI minimal memilih satu mata kuliah pilihan konsentrasi yang disediakan. Total terdapat 4 konsentrasi di PMPSTI, yaitu:
+
+1.  Analisis data dan kecerdasan Tersebar
+
+2.  Rekayasa Perangkat Lunak
+
+3.  Pemerintahan Cerdas
+
+4.  Keamanan Jaringan
+
+### Tata cara penyetaraan
+
+Aturan peralihan berlaku bagi seluruh mahasiswa angkatan 2025 Gasal dan sebelumnya sejak kurikulum 2022 Versi Revisi-2 disahkan. Untuk itu mahasiswa perlu menaati aturan peralihan sebagai berikut.
+
+1.  Mulai Semester Genap 2025/2026 kurikulum yang berlaku adalah Kurikulum 2022 Versi Revisi-2.
+
+2.  Semua mata kuliah yang telah ditempuh sebelumnya, SKS-nya diakui sesuai dengan jumlah SKS pada kurikulum 2022 Revisi-1 dengan memperhatikan kesetaraan @tbl-adapt-sks dan @tbl-vs-curricula.
+
+3.  Mahasiswa melanjutkan mengambil mata kuliah sesuai semester/tingkat saat ini berdasarkan kurikulum 2022 Versi Revisi-2.
+
+    a.  Mahasiswa semester 1 secara penuh menggunakan Kurikulum 2022 Versi Revisi-2.
+
+    b.  Mahasiswa semester 2, 3, 4, dan seterusnya yang sudah mengambil mata kuliah wajib umum di Kurikulum 2022 Revisi 1, melanjutkan mengambil mata kuliah di semester berikutnya pada Kurikulum 2022 Revisi 2.
+
+4.  Mahasiswa yang akan memperbaiki nilai mata kuliah tertentu dapat menempuh mata kuliah tersebut sesuai dengan tabel mata kuliah pengganti. SKS yang diakui adalah SKS pada kurikulum 2022 Versi Revisi-2 sesuai @tbl-adapt-sks dan @tbl-vs-curricula, mengingat proses perbaikan nilai ditempuh saat kurikulum 2022 Versi Revisi-2 telah berlaku.
+
+5.  Semua matakuliah yang sudah diambil tetap diakui dan dapat dimasukkan ke dalam transkrip nilai kelulusan. 
+
+6.  Hal-hal lain yang belum tercantum dalam aturan peralihan ini menjadi kebijaksanaan yang diputuskan oleh Ketua Program Studi dan Sekretaris Program Studi PMPSTI DTETI FT UGM.

@@ -1,0 +1,13 @@
+# Pendahuluan
+
+{{< include _a_identity.qmd >}}
+
+{{< include _b_background.qmd >}}
+
+{{< include _c_basis.qmd >}}
+
+{{< include _d_tracert.qmd >}}
+
+{{< include _e_swot.qmd >}}
+
+{{< include _f_goal.qmd >}}

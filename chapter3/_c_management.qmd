@@ -1,0 +1,37 @@
+## Pengelolaan Program Studi
+
+DTETI UGM menjamin kualitas pelaksanaan kurikulum Program Magister Program Studi Teknologi Informasi melalui proses penerimaan yang transparan, tenaga pengajar kompeten dan beragam, sarana dan prasarana mutakhir serta berkelanjutan, dan struktur pembiayaan yang mendukung kegiatan akademik dan riset.
+
+### Penerimaan dan Pelayanan Mahasiswa
+
+DTETI UGM memastikan proses penerimaan mahasiswa baru Program Magister Program Studi Teknologi Informasi berjalan transparan. Pendaftaran dilakukan secara daring, meliputi unggah dokumen seperti usulan proposal tesis, sertifikat TOEFL minimal 450 (ideal sebagai syarat lulus ≥ 500), dan sertifikat potensi akademik (minimal skor 500).
+
+-   Mahasiswa asing: Melalui mekanisme pendaftaran khusus “International Student”, DTETI mendukung mobilitas global dan keberagaman internasional .
+
+-   Pelayanan mahasiswa: Dukungan akademik dan administratif disediakan oleh tim tenaga kependidikan, pembimbing akademik (PA), serta sekretariat Program Magister Program Studi Teknologi Informasi untuk memastikan pemantauan studi, bimbingan, dan kelancaran registrasi.
+
+### Sumber Daya Manusia
+
+-   Dosen tetap: Memenuhi kualifikasi doktor (S3) dan magister (S2), sesuai persyaratan akademik, dengan kompetensi dalam bidang seperti analitik data, kecerdasan buatan, cloud, keamanan, penelitian dan etika.
+
+-   Dosen praktisi dan tamu: DTETI rutin menghadirkan praktisi industri dan akademisi tamu dalam seminar, workshop, dan pengajaran mata kuliah konsentrasi. Ini memperkaya kurikulum dan jembatan antara teori dan praktik.
+
+-   Tenaga kependidikan: Staf akademik dan administratif bersertifikasi dan dilengkapi kompetensi manajerial serta teknologi informasi untuk mendukung operasional program.
+
+### Sarana-Prasarana
+
+-   Fasilitas fisik: Ruang kuliah, laboratorium, mushola, toilet, parkir, dan area Wi-Fi dirancang ramah pengguna, inklusif bagi penyandang disabilitas, serta memenuhi standar ubin berpemandu, tanda visual, dan akses ramp secara universal.
+
+-   Laboratorium & perpustakaan: Didukung fasilitas laboratorium khusus (seperti cloud, jaringan computer, dan fasilitas high performance computing), perpustakaan Fakultas Teknik, perpustakaan UGM, serta akses ke jurnal ilmiah dan repositori digital global.
+
+### Pembiayaan
+
+Program PMPSTI didukung oleh alokasi anggaran dari DTETI dan Fakultas Teknik, dengan sumber pendanaan sebagai berikut:
+
+-   Biaya kuliah: Dikelola melalui sistem UKT (Uang Kuliah Tunggal), sehingga dana mahasiswa langsung mendukung operasional dan fasilitas.
+
+-   Hibah riset dan konsultan: Pemerintah, industri, dan lembaga eksternal (termasuk dana riset seperti Rolls Royce pada jenjang prodi lain DTETI) turut memperkuat pendanaan untuk pengajaran dan penelitian berbasis teknologi informasi.
+
+-   Beasiswa: Tersedia skema beasiswa internal (FT, UGM), eksternal (Kemkominfo, LPDP), dan beasiswa khusus bagi mahasiswa asing, termasuk dukungan seleksi berbasis prestasi.
+
+-   Dukungan operasional: Tambahan dana rutin dipakai untuk pengembangan kurikulum, peningkatan mutu dosen (seminar, publikasi, workshop), serta perawatan sarana prasaraa dan peningkatan akses digital.

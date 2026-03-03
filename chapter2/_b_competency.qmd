@@ -1,0 +1,243 @@
+## Rumusan Standar Kompetensi Lulusan (SKL) dan Capaian Pembelajaran Lulusan (CPL), atau PEO dan PO
+
+### Standar Kompetensi Lulusan (SKL) {#sec-standard-competency}
+
+SKL Program Magister Program Studi Teknologi Informasi (PMPSTI) menjabarkan mengenai profil profesional yang diharapkan dimiliki oleh lulusan setelah mereka menjadi alumni dengan durasi berkisar tiga hingga lima tahun. Profil tersebut adalah hasil dari diskusi dan telah disepakati oleh pemangku kepentingan (*stakeholders*). Terdapat 2 standar kompetensi lulusan (SKL) sebagai berikut:
+
+a.  **SKL1 Karier (*career*):** Sukses dalam karir teknis atau profesional yang bercirikan memiliki integritas dalam aspek kompetensi teknologi informasi atau bidang terkait yang disertai dengan kemampuan riset yang kuat..
+
+b.  **SKL2 Karakter (*character*):** Memiliki kepemimpinan yang kuat, standar etika yang tinggi, dan pembelajaran sepanjang hayat untuk mempertahankan keunggulan dalam inovasi.
+
+Profil profesional yang dituangkan dalam SKL tersebut sejalan dengan visi dan misi Fakultas Teknik dan Universitas Gadjah Mada. Terkait visi UGM yakni unggul, inovatif, dan bermanfaat bagi masyarakat yang ditunjukkan pada SKL1 Karier, yakni memiliki integritas, kompetensi bidang, dan kemampuan riset yang kuat. Sedangkan SKL 2 Karakter, mendukung visi UGM, yakni pengabdian pada kepentingan bangsa dan kemanusiaan, dengan menjunjung tinggi etika dan semangat pembelajaran sepanjang hayat untuk tetap dapat menjadi pribadi yang unggul dan inovatif. Demikian juga dengan visi FT yakni kemandirian IPTEK dalam mendukung peradaban baru, diwujudkan oleh SKL1 Karier, yaitu lulusan dituntut sukses dalam karir teknis/profesional dengan integritas dan kompetensi TI, serta kemampuan riset yang kuat. Sedangkan SKL 2 Karakter, mendukung visi FT, yakni menghasilkan lulusan kompeten, berintegritas, berjiwa kepemimpinan, beretika tinggi, sehingga mampu berkolaborasi dalam jejaring multidisiplin.
+
+SKL1 dan SKL2 bisa diukur pada saat seorang alumni lulus dan memasuki bidang pekerjanya yang akan dirasakan secara langsung oleh pemberi kerja. Proses pengukuran SKL termasuk pada salah satu siklus PDCA jangka panjang yaitu 5 tahunan dengan metode survei. Selain itu, SKL dapat juga terwakili oleh capaian pembelajaran lulusan (CPL) sesuai dengan yang tertulis pada @sec-cpl. Dengan ketercapaian CPL diharapkan nantinya akan tercapai juga SKL1 dan SKL2 seperti yang tertera pada pemetaan dari CPL terhadap SKL *two cars* yang telah didefinisikan.
+
+Kurikulum PMPSTI pada dasarnya melanjutkan apa yang telah dirancang pada Program Sarjana Teknologi Informasi DTETI FT UGM. Hal ini mempertimbangkan kesinambungan jenjang kependidikan antara program sarjana dan magister yang ada di departemen. Perbedaan mendasar antara SKL PMPSTI dengan program sarjana terletak pada kemampuan lulusan untuk melakukan penelitian dengan hasil yang baik dan dengan menerapkan metode ilmiah yang benar dan mengarah pada ranah profesionalisme dengan karakter kepemimpinan yang kuat, standar etika yang tinggi, dan pembelajaran sepanjang hayat.
+
+Komite Kurikulum dan Pengurus DTETI FT UGM menilai bahwa kemampuan untuk memimpin (*leadership*), memiliki standar etika dan integritas yang tinggi, serta kemauan untuk belajar sepanjang (*life-long learning*) menjadi modal utama yang berharga untuk membentuk alumni yang mampu beradaptasi dengan kompleksitas dunia kerja dan perkembangan teknologi yang sangat pesat di bidang teknologi informasi. Hal-hal tersebut terangkum dalam SKL yang kedua, yakni Karakter. Selain hal-hal tersebut, lulusan DTETI FT UGM juga perlu menguasai ilmu-ilmu dasar dengan baik dan memiliki kompetensi yang sesuai dengan bidang ilmu yang ditekuni. Hal-hal tersebut terangkum dalam SKL yang pertama, yakni Karier. Untuk mendukung terciptanya profil lulusan yang memiliki karakter dan karier yang kuat, Komite Kurikulum dan Pengurus DTETI FT UGM menyusun nilai-nilai (*values*) yang menjadi acuan dosen, mahasiswa, dan tenaga kependidikan dalam melaksanakan kegiatan belajar mengajar, bekerja sama, dan berinteraksi di DTETI FT UGM. Nilai-nilai tersebut dirumuskan dalam jargon “*ETHOS for Integrity*”, dengan penjelasan sebagai berikut:
+
+-   *Excellence*: sivitas akademika DTETI FT UGM tidak hanya memastikan bahwa tugas dan amanah selesai dilaksanakan, tapi juga berusaha menyempurnakan, serta menjadi yangterbaik dan berdedikasi tinggi di bidang yang mereka tekuni.
+
+-   *Teamwork*: sivitas akademika DTETI menyadari bahwa mampu bekerja dalam tim adalah ruh dari sebuah organisasi yang tidak hanya mampu melaksanakan fungsinya, tapi mampu membawa perubahan dan menginspirasi lingkungan sekitarnya.
+
+-   *Harmony*: sivitas akademika DTETI menyadari bahwa kesuksesan dapat dicapai dengan tetap memperhatikan harmoni dan keseimbangan, keseimbangan antara pekerjaan dan keluarga, keseimbangan antara hak dan kewajiban, keseimbangan antara kesehatan jiwa dan kesehatan raga.
+
+-   *Optimistic*: sivitas akademika DTETI selalu melihat seluruh tantangan dengan penuh optimis, sebab mereka meyakini bahwa tidak ada kata gagal, yang ada adalah belajar dan sukses.
+
+-   *Smart*: sivitas akademika DTETI menjadi sumber inspirasi dengan berbagai inovasi, berusaha berkontribusi untuk menyelesaikan permasalahan masyarakat dan bangsa, menjadi bagian dari solusi, bukan bagian dari masalah.
+
+-   *Integrity*: sivitas akademika DTETI memiliki keyakinan yang kuat akan nilai-nilai moral yang menjadi acuan bekerja di ranah profesional serta bekerja sama dalam bingkai berbangsa dan bernegara.
+
+### Capaian Pembelajaran Lulusan (CPL) {#sec-cpl}
+
+Capaian pembelajaran lulusan (CPL) diturunkan dari kedua SKL yang telah dijabarkan pada @sec-standard-competency, yang terdiri dari CPL yang mendukung SKL career dan SKL character. CPL yang ditetapkan berikut merujuk pada CPL yang ditetapkan oleh Indonesian *Accreditation Board for Engineering Educatio*n (IABEE).
+
+CPL kelompok Karir (*career*):
+
+::: {.callout-note appearance="minimal"}
+**CPL1. Pengetahuan dan wawasan rekayasa (Engineering knowledge)**
+
+Menguasai pengetahuan dan wawasan yang luas dalam rangka pengembangan ilmu pengetahuan dan teknologi melalui riset atau penciptaan karya inovatif bidang teknik informasi.
+:::
+
+::: {.callout-note appearance="minimal"}
+**CPL.2. Pengembangan Solusi Teknik (Development of Engineering Solution)**
+
+Menerapkan dan mengembangkan pengetahuan dan wawasan untuk pemecahan masalah dalam lingkungan baru pada konteks multidisiplin yang luas.
+:::
+
+::: {.callout-note appearance="minimal"}
+**CPL.3. Data, Eksperimen, dan Pemodelan (Data, Experiments and modeling)**
+
+Kemampuan untuk membangun model untuk merancang dan melakukan eksperimen untuk mengeksplorasi masalah rekayasa yang kompleks serta menganalisis dan menginterpretasikan data.
+:::
+
+::: {.callout-note appearance="minimal"}
+**CPL.4. Pemanfaatan Alat Modern dan Teknologi Informasi (Modern Tools and IT Utilization)**
+
+Kemampuan untuk menggunakan teknik, keterampilan, alat rekayasa modern dan teknologi informasi untuk praktik teknik yang kompleks.
+:::
+
+::: {.callout-note appearance="minimal"}
+**CPL.5. Komunikasi yang Efektif (Effective Communication)**
+
+Mengkomunikasikan secara efektif pengetahuan, wawasan dan karya keteknikan pada komunitas akademik dan umum.
+:::
+
+::: {.callout-note appearance="minimal"}
+**CPL.6. Pengetahuan tentang Masalah Kontemporer (Knowledge of Contemporary Issues)**
+
+Kemampuan berpikir logis untuk mengevaluasi masalah kesehatan, sosial, keselamatan, hukum, dan budaya dalam konteks pengetahuan dan ilmu pengetahuan baru-baru ini dalam melakukan kegiatan teknik.
+:::
+
+CPL kelompok karakter (*character*):
+
+::: {.callout-note appearance="minimal"}
+**CPL.7. Kerjasama tim, Kepemimpinan, dan Mengelola Tim (Teamwork, leadership and managerial)**
+
+Profesional dan tanggung jawab teknik komputer yang lebih besar, dan/atau dengan transisi ke posisi kepemimpinan dalam bisnis, pemerintahan, mengelola tim. Kemampuan untuk memiliki peran secara efektif dalam memimpin dan mengelola kerja di dalam tim untuk mencapai tujuan bersama.
+:::
+
+::: {.callout-note appearance="minimal"}
+**CPL.8. Kesadaran akan Dampak Rekayasa, Tanggung Jawab Profesional dan Etis (Engineering Awareness, Professionalism,  and Ethical Responsibility)**
+
+Kemampuan untuk memahami nilai-nilai etika dan berkomitmen pada norma, tanggung jawab dan etika profesi teknik. Dalam konteks masyarakat Indonesia, nilai-nilai dan norma-norma yang dipertimbangkan dan diterima dalam teknik selain norma kemanusiaan umum universal juga harus mencakup prinsip-prinsip Pancasila, nilai-nilai budaya lokal, dan kepentingan kebangsaan.
+:::
+
+::: {.callout-note appearance="minimal"}
+**CPL.9. Pembelajaran berkelanjutan (Sustainable Learning)**
+
+Kemampuan untuk mewujudkan pentingnya pembelajaran seumur hidup dan mampu melaksanakannya.
+:::
+
+Seusai panduan penyusunan kurikulum 2021 yang diterbitkan oleh Direktorat Jenderal Pendidikan Tinggi Kementerian Pendidikan dan Kebudayaan, Capaian Pembelajaran Lulusan (CPL) atau Student Outcomes (SO) harus mengacu pada jenjang kualifikasi KKNI dan SNPT. CPL terdiri dari unsur sikap, keterampilan umum, keterampilan khusus, dan pengetahuan. Unsur sikap dan keterampilan umum mengacu pada SPT sebagai standar minimal, yang memungkinkan ditambah oleh program studi untuk memberi ciri lulusan perguruan tingginya. Sedangkan unsur keterampilan khusus dan pengetahuan dirumuskan dengan mengacu pada deskriptor KKNI sesuai dengan jenjang pendidikannya. Hubungan CPL dengan standar SNPT dapat dilihat pada @tbl-cpl-snpt berikut ini.
+
+```{r}
+#| label: tbl-cpl-snpt
+#| tbl-cap: "Hubungan CPL dengan standar SNPT"
+#| echo: false
+#| warning: false
+#| message: false
+
+library(kableExtra)
+
+chk <- if (knitr::is_latex_output()) "$\\checkmark$" else "✓"
+
+df_cpl <- data.frame(
+  CPL = c(
+    "Pengetahuan dan wawasan rekayasa (Engineering knowledge)",
+    "Pengembangan Solusi Teknik (Development of Engineering Solution)",
+    "Data, Eksperimen, dan Pemodelan (Data, Experiments and modeling)",
+    "Pemanfaatan Alat Modern dan Teknologi Informasi (Modern Tools and IT Utilization)",
+    "Komunikasi yang Efektif (Effective Communication)",
+    "Pengetahuan tentang Masalah Kontemporer (Knowledge of Contemporary Issues)",
+    "Teamwork, leadership, dan managerial",
+    "Kesadaran akan Dampak Rekayasa dan Etika Profesional (Engineering Awareness and Professional Ethics)",
+    "Pembelajaran berkelanjutan (Sustainable Learning)"
+  ),
+  Sikap                  = c("", "", "", "", "", "", chk, chk, chk),
+  Pengetahuan            = c(chk, "", "", "", "", chk, "", "", ""),
+  `Keterampilan Umum`    = c("", "", "", "", chk, "", "", "", ""),
+  `Keterampilan Khusus`  = c("", chk, chk, chk, "", "", "", "", ""),
+  check.names = FALSE
+)
+
+is_pdf  <- knitr::is_latex_output()
+
+if (is_pdf) {
+  kbl(df_cpl,
+      booktabs = TRUE,
+      escape   = FALSE,
+      align = c(
+        ">{\\raggedright\\arraybackslash}p{0.43\\textwidth}",
+        ">{\\centering\\arraybackslash}p{0.11\\textwidth}",
+        ">{\\centering\\arraybackslash}p{0.11\\textwidth}",
+        ">{\\centering\\arraybackslash}p{0.11\\textwidth}",
+        ">{\\centering\\arraybackslash}p{0.11\\textwidth}"
+      )
+  ) %>%
+    kable_styling(
+      position      = "center",
+      latex_options = c("hold_position", "striped"),
+      stripe_color  = "#F5F5F5"
+    ) %>%
+    row_spec(0, bold = TRUE )
+
+} else {
+  kbl(df_cpl,
+      booktabs = TRUE,
+      escape   = FALSE,
+      align    = c("l", "c", "c", "c", "c")   
+  ) %>%
+    kable_styling(
+      full_width        = TRUE,
+      bootstrap_options = c("striped", "bordered", "condensed"),
+      stripe_color      = "#F5F5F5"
+    ) %>%
+    row_spec(0, bold = TRUE )
+
+}
+```
+
+Menurut Peraturan Presiden Republik Indonesia No. 8 Tahun 2012 tentang Kerangka Kualifikasi Nasional Indonesia (KKNI) Pasal 5(g),  lulusan Magister Terapan dan Magister paling rendah setara dengan jenjang kedelapan. Oleh karena itu, student outcomes yang akan dicapai oleh program studi harus merepresentasikan deskripsi jenjang kualifikasi KKNI kedelapan.  Adapun matriks yang menunjukkan relasi antara SO dan jenjang KKNI kedelapan ditunjukkan oleh @tbl-cpl-kkni.
+
+```{=latex}
+\begin{landscape}
+```
+
+```{r}
+#| label: tbl-cpl-kkni
+#| tbl-cap: "Matriks relasi CP dan jenjang KKNI Delapan"
+#| echo: false
+#| warning: false
+#| message: false
+
+library(kableExtra)
+chk <- if (knitr::is_latex_output()) "$\\checkmark$" else "✓"
+
+
+df_cpl_kkni8 <- data.frame(
+  `Jenjang KKNI ke-8` = c(
+    "Pengetahuan dan wawasan rekayasa (Engineering knowledge)",
+    "Pengembangan Solusi Teknik (Development of Engineering Solution)",
+    "Data, Eksperimen, dan Pemodelan (Data, Experiments and Modeling)",
+    "Pemanfaatan Alat Modern dan Teknologi Informasi (Modern Tools and IT Utilization)",
+    "Komunikasi yang Efektif (Effective Communication)",
+    "Pengetahuan tentang Masalah Kontemporer (Knowledge of Contemporary Issues)",
+    "Teamwork, leadership, dan managerial",
+    "Kesadaran akan Dampak Rekayasa, Tanggung Jawab Profesional dan Etis (Engineering Awareness, Professionalism, and Ethical Responsibility)",
+    "Pembelajaran berkelanjutan (Sustainable Learning)"
+  ),
+  `Mampu mengembangkan pengetahuan, teknologi, dan atau seni di dalam bidang keilmuannya atau praktik profesionalnya melalui riset, hingga menghasilkan karya inovatif dan teruji.` = c(
+    chk, chk, chk, chk,
+    "", chk, "", "", ""
+  ),
+  `Mampu memecahkan permasalahan sains, teknologi, dan atau seni di dalam bidang keilmuannya melalui pendekatan inter atau multidisipliner.` = c(
+    "", "", "", "", "", "", "", "", ""
+  ),
+  `Mampu mengelola riset dan pengembangan yang bermanfaat bagi masyarakat dan keilmuan, serta mampu mendapat pengakuan nasional atau internasional.` = c(
+    "", "", "", "", chk, "", chk, chk, chk
+  ),
+  check.names = FALSE
+)
+
+is_pdf <- knitr::is_latex_output()
+
+if (is_pdf) {
+  kbl(df_cpl_kkni8,
+      booktabs = TRUE,
+      escape   = FALSE,
+      align    = c(
+        "p{0.30\\linewidth}",
+        ">{\\centering\\arraybackslash}p{0.20\\linewidth}",
+        ">{\\centering\\arraybackslash}p{0.20\\linewidth}",
+        ">{\\centering\\arraybackslash}p{0.20\\linewidth}"
+      )
+  ) %>%
+    kable_styling(
+      position      = "center",
+      latex_options = c("hold_position", "striped"),
+      stripe_color  = "#F5F5F5"
+    ) %>%
+    row_spec(0, bold = TRUE )
+
+} else {
+  kbl(df_cpl_kkni8,
+      booktabs = TRUE,
+      escape   = FALSE,
+      align    = c("l", "c", "c", "c")
+  ) %>%
+    kable_styling(
+      full_width        = TRUE,
+      bootstrap_options = c("striped", "bordered", "condensed"),
+      stripe_color      = "#F5F5F5"
+    ) %>%
+    row_spec(0, bold = TRUE ) %>%
+    column_spec(1, width = "40%") %>%
+    column_spec(2:4, width = "20%")
+}
+```
+
+```{=latex}
+\end{landscape}
+```

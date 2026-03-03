@@ -1,0 +1,68 @@
+## Sistem Penilaian
+
+Ujian dapat dilaksanakan dengan berbagai macam cara, seperti ujian tulis, ujian lisan, ujian dalam bentuk seminar, ujian dalam bentuk pembuatan laporan teknis, pekerjaan rumah, dan sebagainya. Ujian dapat pula dilaksanakan dengan berbagai kombinasi cara-cara tersebut. Cara ujian yang digunakan disesuaikan dengan sifat pendidikan. Ujian diselenggarakan dengan tujuan:
+
+1.  menilai apakah mahasiswa telah memahami bahan yang diajarkan,
+
+2.  mengelompokkan mahasiswa berdasarkan kemampuan ke dalam kelompok amat baik (A), kelompok baik (B), kelompok cukup (C), kelompok kurang (D), dan kelompok jelek (kelompok E), dengan rincian sesuai Tabel pada poin  4.
+
+3.  menilai apakah bahan yang diajarkan telah sesuai serta cara menyampaikannya telah cukup baik sehingga para mahasiswa dengan usaha yang wajar dapat memahami bahan tersebut,
+
+4.  rentang penilaian mengikuti yang telah ditetapkan dalam Peraturan Rektor UGM No. 23 Tahun 2024 yang selaras dengan Permendiktisaintek No. 39 Tahun 2025, yaitu:
+
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+
+library(kableExtra)
+
+df_grade <- data.frame(
+  `Nilai Huruf` = c("A", "A-", "A/B", "B+", "B", "B-", "B/C"),
+  `Nilai Angka` = c("4,00", "3,75", "3,50", "3,25", "3,00", "2,75", "2,50"),
+  `Nilai Huruf ` = c("C+", "C", "C-", "C/D", "C+", "D", "E"),
+  `Nilai Angka ` = c("2,25", "2,00", "1,75", "1,50", "1,25", "1,00", "0"),
+  check.names = FALSE
+)
+
+is_pdf <- knitr::is_latex_output()
+
+if (is_pdf) {
+  kbl(df_grade,
+      booktabs = TRUE,
+      escape   = FALSE,
+      align    = c(
+        ">{\\centering\\arraybackslash}p{2cm}",
+        ">{\\centering\\arraybackslash}p{2cm}",
+        ">{\\centering\\arraybackslash}p{2cm}",
+        ">{\\centering\\arraybackslash}p{2cm}"
+      )
+  ) %>%
+    kable_styling(
+      position      = "center",
+      latex_options = c("hold_position", "striped"),
+      stripe_color  = "#F5F5F5"
+    ) %>%
+    row_spec(0, bold = TRUE )
+
+} else {
+  kbl(df_grade,
+      booktabs = TRUE,
+      escape   = FALSE,
+      align    = c("c", "c", "c", "c")
+  ) %>%
+    kable_styling(
+      full_width        = FALSE,
+      position          = "center",
+      bootstrap_options = c("striped", "bordered", "condensed"),
+      stripe_color      = "#F5F5F5"
+    ) %>%
+    row_spec(0, bold = TRUE )
+}
+```
+
+5.  Untuk kegiatan penelitian pada kurikulum berbasis riset, penilaian dilakukan dengan menggunakan metode rubrik.
+
+Agar maksud dan tujuan penyelenggaraan ujian dapat tercapai, perlu diadakan lebih dari satu kali ujian yaitu satu kali ujian akhir semester dan sekurang-kurangnya satu kali ujian sisipan. Dalam menentukan nilai akhir, bobot nilai-nilai sebagai komponen penyusun nilai akhir perlu ditentukan dan diberitahukan kepada mahasiswa. Ujian sisipan dan akhir hanya dapat dilaksanakan pada waktu yang telah dijadwalkan oleh Departemen Teknik Elektro dan Teknologi Informasi.
+
+Untuk menentukan ketercapaian CPL, prodi melakukan pemetaan dan pembobotan tingkat dukungan CPMK pada setiap CPL. Ketercapaian CPL diagregasi dari ketercapaian CPMK pada setiap mata kuliah dari semua mahasiswa yang mengambil mata kuliah tersebut. Bila ditemukan ada CPL yang belum memenuhi nilai ambang batas tertentu, maka akan dilakukan evaluasi pada rapat kerja departemen (RKD) atau jika diperlukan dalam bentuk workshop akademik. untuk menentukan tindak lanjut yang akan ditempuh. Evaluasi CPMK dapat dievaluasi setiap semester sedangkan CPL dapat dievaluasi paling cepat pada kurun waktu per satu tahun.

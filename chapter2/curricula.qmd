@@ -1,0 +1,11 @@
+# Struktur Kurikulum {#sec-curricula}
+
+{{< include _a_profile.qmd >}}
+
+{{< include _b_competency.qmd >}}
+
+{{< include _c_material.qmd >}}
+
+{{< include _d_course.qmd >}}
+
+{{< include _e_scoring.qmd >}}

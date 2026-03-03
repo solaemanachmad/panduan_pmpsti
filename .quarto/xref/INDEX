@@ -1,0 +1,41 @@
+{
+  "index.qmd": {
+    "index.html": "b1961dc3"
+  },
+  "front/a_editor.qmd": {
+    "a_editor.html": "ba38c535"
+  },
+  "front/b_preface.qmd": {
+    "b_preface.html": "f7ec6607"
+  },
+  "chapter1/introduction.qmd": {
+    "introduction.html": "a4d882d1"
+  },
+  "chapter2/curricula.qmd": {
+    "curricula.html": "181e9538"
+  },
+  "chapter3/transition.qmd": {
+    "transition.html": "159b94f3"
+  },
+  "chapter4/conclusion.qmd": {
+    "conclusion.html": "2515ac73"
+  },
+  "appendix/a_cooperation.qmd": {
+    "a_cooperation.html": "036f6780"
+  },
+  "appendix/b_lecturers.qmd": {
+    "b_lecturers.html": "08383ecd"
+  },
+  "404.qmd": {
+    "404.html": "2efc26fa"
+  },
+  "appendix/appendices.qmd": {
+    "appendices.html": "4558401a"
+  },
+  "appendix/c_ewmp.qmd": {
+    "c_ewmp.html": "4827495c"
+  },
+  "appendix/d_tendik.qmd": {
+    "d_tendik.html": "addd9228"
+  }
+}

@@ -1,0 +1,217 @@
+project:
+  type: book
+  output-dir: docs
+
+language:
+  crossref-fig-title: "Gambar"
+  crossref-tbl-title: "Tabel"
+  crossref-fig-prefix: "Gambar"
+  crossref-tbl-prefix: "Tabel"
+  appendix-title: "Lampiran"
+  appendix-delim: "."
+  crossref-sec-prefix: "Bagian"
+  crossref-ch-prefix: "Bab"
+  section-title-appendices: "Lampiran"
+  appendix-prefix: "Lampiran"
+
+
+book:
+  title: "Buku Panduan Akademik"
+  language: id
+  author: "Departemen Teknik Elektro dan Teknologi Informasi, Universitas Gadjah Mada"
+  date: "2026-02-16"
+  description: "Department of Electrical Engineering and Information Technology, Universitas Gadjah Mada."
+  repo-url: https://github.com/
+  repo-actions: [edit, issue]
+  
+  sidebar:
+    style: "docked"
+    background: "#D9E3E4"
+    logo: "images/logo.png"
+    search: true
+    collapse-level: 2
+    pinned: true 
+    tools:
+      - icon: twitter
+        href: https://twitter.com
+      - icon: file-pdf
+        href: "Buku-Panduan-Akademik.pdf"
+        text: "Cetak / PDF"
+
+  chapters:
+    - index.qmd
+    - front/a_editor.qmd
+    - front/b_preface.qmd
+    - chapter1/introduction.qmd
+    - chapter2/curricula.qmd
+    - chapter3/transition.qmd
+    - chapter4/conclusion.qmd
+
+  appendices: 
+    - appendix/a_cooperation.qmd
+    - appendix/b_lecturers.qmd
+    - appendix/c_ewmp.qmd
+    - appendix/d_tendik.qmd
+
+
+  page-footer:
+    right: "Built with [Quarto](https://quarto.org/)."
+    left: "&copy; 2026, Departemen Teknik Elektro dan Teknologi Informasi, Universitas Gadjah Mada"
+    background: "#D9E3E4"
+
+format:
+  html:
+    lang: id
+    theme:
+      light: [cosmo, theme.scss]
+      dark: [cosmo, theme-dark.scss]
+    mainfont: "Atkinson Hyperlegible"
+    code-copy: true
+    code-overflow: wrap
+    toc: true
+    toc-depth: 3
+    number-sections: true
+    toc-expand: 2
+    number-depth: 3 
+    
+  pdf:
+    engine: xelatex
+    latex-auto-install: false
+
+    documentclass: book
+    classoption: ["oneside"]
+
+    number-sections: true
+    toc: true
+    toc-depth: 3
+    number-depth: 3
+    toc-title: "Daftar Isi"
+    lof: true
+    lot: true
+    lof-title: "Daftar Gambar"
+    lot-title: "Daftar Tabel"
+
+    geometry:
+      - a4paper
+      - top=2.5cm
+      - left=3cm
+      - right=2.5cm
+      - bottom=2.5cm
+
+    include-in-header:
+      text: |
+        % ── Font ──────────────────────────────────────────────────────────
+        \usepackage{fontspec}
+
+
+        % ── Bahasa ────────────────────────────────────────────────────────
+        \usepackage[indonesian]{babel}
+        \AtBeginDocument{\selectlanguage{indonesian}}
+        \addto\captionsindonesian{
+          \renewcommand{\contentsname}{Daftar Isi}
+          \renewcommand{\listfigurename}{Daftar Gambar}
+          \renewcommand{\listtablename}{Daftar Tabel}
+          \renewcommand{\chaptername}{BAB}
+          \renewcommand{\appendixname}{Lampiran}
+        }
+
+        % ── Adding ────────────────────────────────────────────────
+        \usepackage[table]{xcolor}
+        \usepackage{colortbl}
+        \usepackage{pdflscape}
+        \usepackage{longtable}
+        \usepackage{booktabs}
+        \usepackage{amssymb}
+        \usepackage{enumitem}
+        \usepackage{caption}
+        \setlist[enumerate]{nosep, leftmargin=*}
+
+        % ── Counter ───────────────────────────────────────────────────────
+        \setcounter{secnumdepth}{3}
+        \setcounter{tocdepth}{3}
+
+        % ── Numbering ─────────────────────────────────────────────────────
+        \renewcommand{\thefigure}{\arabic{chapter}.\arabic{figure}}
+        \renewcommand{\thetable}{\arabic{chapter}.\arabic{table}}
+        \renewcommand{\thesection}{\arabic{chapter}.\arabic{section}}
+        \renewcommand{\thesubsection}{\arabic{chapter}.\arabic{section}.\arabic{subsection}}
+        \renewcommand{\thesubsubsection}{\arabic{chapter}.\arabic{section}.\arabic{subsection}.\arabic{subsubsection}}
+
+        % ── Title ──────────────────────────────────────
+        \usepackage{titlesec}
+        \usepackage{fancyhdr}
+        \pagestyle{plain}
+
+        \usepackage{titlesec}
+
+        \titleformat{\chapter}
+          {\normalfont\bfseries\centering\fontsize{12}{16}\selectfont}
+          {BAB \Roman{chapter}}{1em}{\MakeUppercase}
+        \titlespacing*{\chapter}{0pt}{-10pt}{20pt}
+
+        \titleformat{\section}
+          {\normalfont\bfseries\normalsize}
+          {\thesection}{1em}{}
+        \titlespacing{\section}{0pt}{24pt plus 4pt minus 2pt}{6pt plus 2pt minus 2pt}
+
+        \titleformat{\subsection}
+          {\normalfont\bfseries\normalsize}
+          {\thesubsection}{1em}{}
+        \titlespacing{\subsection}{0pt}{18pt plus 4pt minus 2pt}{4pt plus 2pt minus 2pt}
+
+        \titleformat{\subsubsection}
+          {\normalfont\bfseries\normalsize}
+          {\thesubsubsection}{1em}{}
+        \titlespacing\subsubsection{0pt}{12pt plus 4pt minus 2pt}{2pt plus 2pt minus 2pt}
+
+        % ── Appendix ──────────────────────────────────────────────────────────────────
+        \let\oldappendix\appendix
+        \renewcommand{\appendix}{
+          \oldappendix
+          \renewcommand{\thechapter}{\arabic{chapter}}
+          \setcounter{chapter}{0}
+          \titleformat{\chapter}
+            {\normalfont\bfseries\centering\fontsize{12}{16}\selectfont}
+            {Lampiran \thechapter}{1em}{\MakeUppercase}
+          \renewcommand{\thetable}{\thechapter.\arabic{table}}
+          \renewcommand{\thefigure}{\thechapter.\arabic{figure}}
+          \setcounter{table}{0}
+          \setcounter{figure}{0}
+          \captionsetup[figure]{list=no}
+          \captionsetup[table]{list=no}
+        }
+
+        % ── Spacing ───────────────────────────────────────────────────────────
+        \usepackage{setspace}
+        \linespread{1.15}
+        \setlength{\parindent}{0.95cm}
+        \setlength{\parskip}{6pt}
+
+        % ── Landscape page number ─────────────────────────────────────────
+        \usepackage{everypage}
+        \AddEverypageHook{%
+          \ifdim\textwidth>\textheight
+            \fancyhf{}
+            \fancyfoot[C]{\thepage}
+          \fi
+        }
+
+        % ── Hyphenation ───────────────────────────────────────────────────
+        \usepackage[none]{hyphenat}
+        \sloppy
+
+        \AfterEndPreamble{
+          \renewcommand{\listfigurename}{Daftar Gambar}
+          \renewcommand{\listtablename}{Daftar Tabel}
+          \renewcommand{\contentsname}{Daftar Isi}
+          \renewcommand{\appendixname}{Lampiran}
+          \addto\captionsindonesian{\renewcommand{\appendixname}{Lampiran}}
+        }
+        
+
+freeze: auto
+editor: visual
+
+        # \setmainfont{Times New Roman}
+        # \setsansfont{Times New Roman}
+        # \setmonofont{Courier New}

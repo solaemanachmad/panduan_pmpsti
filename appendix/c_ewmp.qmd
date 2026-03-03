@@ -1,0 +1,79 @@
+# Rata-Rata Beban Dosen PMPSTI per Semester
+
+```{r}
+#| label: tbl-ewmp-dtps
+#| tbl-cap: "Ekuivalen Waktu Mengajar Penuh (EWMP) DTPS"
+#| message: false
+#| warning: false
+#| echo: false
+
+library(here)
+library(readr)
+library(dplyr)
+
+big_table <- read_csv(
+  here("appendix/data", "03_ewmp_dtps.csv"),
+  col_types = cols(.default = col_character()),
+  na = ""
+)
+
+big_table[is.na(big_table)] <- ""
+
+if (knitr::is_html_output()) {
+
+  library(DT)
+
+  datatable(
+    big_table,
+    rownames = FALSE,
+    style = "bootstrap4",
+    class = "table-bordered table-condensed table-hover",
+    caption = htmltools::tags$caption(
+      style = "caption-side: top; text-align: center; 
+               font-size: 130%; font-weight: bold;",
+      "Ekuivalen Waktu Mengajar Penuh (EWMP) DTPS"
+    ),
+    options = list(
+      pageLength = 10,
+      scrollX = TRUE,
+      autoWidth = TRUE,
+      dom = "lfrtip",
+      columnDefs = list(
+        list(className = "dt-center", targets = "_all")
+      ),
+      language = list(
+        search      = "Cari:",
+        lengthMenu  = "Tampilkan _MENU_ data",
+        info        = "Menampilkan _START_ sampai _END_ dari _TOTAL_ data",
+        paginate    = list(previous = "Sebelumnya", `next` = "Berikutnya"),
+        zeroRecords = "Data tidak ditemukan"
+      )
+    )
+  )
+
+} else {
+
+  library(knitr)
+  library(kableExtra)
+
+  # Buat align otomatis sesuai jumlah kolom
+  align_vec <- rep("c", ncol(big_table))
+  align_vec[2] <- "l"  # misalnya kolom ke-2 rata kiri
+
+  kable(
+    big_table,
+    booktabs  = TRUE,
+    longtable = TRUE,
+    caption   = "Ekuivalen Waktu Mengajar Penuh (EWMP) DTPS",
+    escape    = TRUE,
+    align     = align_vec
+  ) |>
+    kable_styling(
+      latex_options = c("striped", "repeat_header", "scale_down"),
+      font_size = 7
+    ) |>
+    column_spec(1, width = "0.5cm") |>
+    column_spec(2, width = "4cm")
+
+}
+```

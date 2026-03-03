@@ -1,0 +1,25 @@
+No.,Kode MK,Nama Mata Kuliah,SKS,Sifat
+1,TIF 257111,Interoperabilitas Lanjut (Advanced Interoperability),3,Pilihan DAPI
+2,TIF 257112,Jaringan Nirkabel dan Bergerak (Wireless and Mobile Networking),3,Pilihan DAPI
+3,TIF 257113,Visi Komputer (Computer Vision),3,Pilihan DAPI
+4,TIF 257114,Operasi Riset (Research Operation),3,Pilihan DAPI
+5,TIF 257115,Kecerdasan Bisnis (Business Intelligence),3,Pilihan DAPI
+6,TIF 257116,Pengembangan Aplikasi Peranti Bergerak Lanjut (Advanced Mobile Application Development),3,Pilihan DAPI
+7,TIF 257121,Interaksi Manusia dan Komputer Lanjut (Advanced Human-Computer Interaction),3,Pilihan HcSE
+8,TIF 257122,Antar Muka Alamiah (Natural User Interface),3,Pilihan HcSE
+9,TIF 257123,Rekayasa Faktor Manusia dan Ergonomi (Human Factor Engineering and Ergonomics),3,Pilihan HcSE
+10,TIF 257124,Pengujian dan Implementasi Perangkat Lunak (Software Testing and Implementation),3,Pilihan HcSE
+11,TIF 257125,Pemodelan Sistem dan Perangkat Lunak (System and Software Modelling),3,Pilihan HcSE
+12,TIF 257126,Aplikasi Kontemporer (Contemporary Application),3,Pilihan HcSE
+13,TIF 257131,Perencanaan Strategis Teknologi Informasi (IT Strategic Planning),3,Pilihan SG
+14,TIF 257132,Manajemen Proyek Teknologi Informasi (IT Project Management),3,Pilihan SG
+15,TIF 257133,Audit Teknologi Informasi (Audit of Information Technology),3,Pilihan SG
+16,TIF 257134,Kepemimpinan TIK (IT Leadership),3,Pilihan SG
+17,TIF 257135,Teknologi untuk Kota Cerdas (Technology for Smart City),3,Pilihan SG
+18,TIF 257136,Manajemen Perubahan dan Resiko TI (IT Change and Risk Management),3,Pilihan SG
+19,TIF 257141,Keamanan dan Integritas Data Lanjut (Advanced Data Security and Integrity),3,Pilihan NC
+20,TIF 257142,Keamanan Jaringan Komputer (Network Security),3,Pilihan NC
+21,TIF 257143,Keamanan Peranti Bergerak dan IoT (Mobile and IoT Security),3,Pilihan NC
+22,TIF 257144,Keamanan Komputasi Awan (Cloud Security),3,Pilihan NC
+23,TIF 257145,Kriptografi (Cryptography),3,Pilihan NC
+24,TIF 257146,Teknologi Blockchain (Blockchain Technology),3,Pilihan NC
