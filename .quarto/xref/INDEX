@@ -27,7 +27,8 @@
     "b_lecturers.html": "08383ecd"
   },
   "404.qmd": {
-    "404.html": "2efc26fa"
+    "404.html": "2efc26fa",
+    "404.tex": "f63483cf"
   },
   "appendix/appendices.qmd": {
     "appendices.html": "4558401a"
@@ -61,5 +62,8 @@
   },
   "appendix/h_kbk.qmd": {
     "h_kbk.html": "c1bfd98e"
+  },
+  "LICENSE.md": {
+    "LICENSE.html": "11c51808"
   }
 }

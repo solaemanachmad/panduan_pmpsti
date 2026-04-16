@@ -118,8 +118,6 @@ html_output <- paste0(html_output, '</table>\n')
 cat(html_output)
 ```
 
-
-
 ## Kelompok Bidang Informasi {.unnumbered}
 
 ### Ketua {.unnumbered}
@@ -131,6 +129,7 @@ cat(html_output)
 [**Prof. Lukito Edi Nugroho**](https://acadstaff.ugm.ac.id/MTk2NjAzMjcxOTkxMDMxMDAy) adalah Guru Besar Bidang keilmuan : Context-aware computing, smart city, ICT and society di Fakultas Teknik Universitas Gadjah Mada (UGM).
 
 ### Anggota {.unnumbered}
+
 ```{r}
 #| message: false
 #| warning: false

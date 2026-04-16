@@ -14,9 +14,12 @@ language:
   section-title-appendices: "Lampiran"
   appendix-prefix: "Lampiran"
 
+website:
+  site-url: https://solaemanachmad.github.io/panduan_pmpsti/
+  #sitemap: true
 
 book:
-  title: "Buku Panduan Akademik"
+  title: "Buku Panduan Akademik MTI"
   language: id
   author: "Departemen Teknik Elektro dan Teknologi Informasi, Universitas Gadjah Mada"
   date: "2026-02-16"
